@@ -1,0 +1,42 @@
+[[main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "about"
+  weight = 2
+
+  [[main]]
+  parent = "about"
+  name = "DMCA"
+  url = "about/dmca"
+
+   [[main]]
+  parent = "about"
+  name = "Contact"
+  url = "about/contact"
+
+   [[main]]
+  parent = "about"
+  name = "Privacy Policy"
+  url = "about/privacy-policy"
+
+ [[main]]
+  parent = "about"
+  name = "Copyright"
+  url = "about/copyright"
+
+[[main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "posts"
+  weight = 3
+
+  [[main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "archive"
+  weight = 4
